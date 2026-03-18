@@ -1,0 +1,55 @@
+body {
+    height: 97.2vh;
+    background-image: linear-gradient(cyan, rgb(52, 58, 255));
+    background-repeat: no-repeat;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form2 {
+    padding-top: 56px;
+}
+
+.btn2 {
+
+    padding: 20px;
+}
+
+.form3 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.name {
+    padding: 15px;
+}
+
+.password {
+    padding: 15px;
+}
+
+.admin {
+    text-align: right;
+}
+
+.adminbtn {
+    border: 1px solid black;
+    border-radius: 23px;
+    background: transparent;
+    padding: 13px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;;
+}
+
+.adminbtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
