@@ -4,6 +4,12 @@ body {
     background-repeat: no-repeat;
 }
 
+.btn{
+    border: 1px solid black;
+    border-radius: 23px;
+    background: transparent;
+    cursor: pointer;
+}
 .form {
     display: flex;
     justify-content: center;
